@@ -19,10 +19,10 @@ body {
 	height: 119px;
 	background: #eff3f7 url("../img/line.png") bottom center no-repeat;
 	position: relative;
-	margin-bottom: 39px;
+	margin-bottom: 40px;
 }
 .page-header .header-logo-link {
-	position: absolute;top: 39px;
+	position: absolute;top: 40px;
 	left: 0;
 }
 .page-header .header-logo-text {
@@ -80,7 +80,7 @@ body {
 	overflow: hidden;
 	background: #eff3f7;
 	border-radius: 4px;
-	margin-bottom: 26px;
+	margin-bottom: 24px;
 }
 .navigation .navigation-list {
 	list-style: none;
@@ -103,12 +103,12 @@ border-top: none;
 }
 .navigation .navigation-item.current .navigation-link{
 	color: #f9fafb;
-	font-size: 22px;
+	font-size: 23px;
 }
 .navigation .navigation-link{
 	font-family: fira_sansbook;
 	display: block;
-	font-size: 20px;
+	font-size: 21px;
 	text-decoration: none;
 	color: #959aa8;
 	margin-left: 16px;
@@ -116,6 +116,7 @@ border-top: none;
 }
 .navigation .navigation-link:hover{
 	color: #3ba8c0;
+	font-size: 21px;
 }
 /* Навигация  - конец */
 
@@ -124,12 +125,13 @@ border-top: none;
 	list-style-type: none;
 	border-radius: 4px;
 	overflow: hidden;
-	font-size: 23px;
+	font-size: 21px;
 }
 .contacts-header {
 	background: #3ba8c0;
 	position: relative;
 	border-radius: 4px 4px 0 0;
+	padding: 5px 0;
 
 
 }
@@ -150,6 +152,9 @@ border-top: none;
 	margin-left: 25px;
 	font-family: fira_sansbook;
 	font-style: normal;
+}
+.contacts-item{
+	padding: 4px 0;
 }
 .contacts-link:hover{
 	text-decoration: underline;

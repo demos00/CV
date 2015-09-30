@@ -9,8 +9,8 @@
     font-weight: normal;
     color: #3ba8c0;
     border-bottom: 2px #3ba8c0 solid;
-    margin: 0 0 16px 0;
-    padding: 13px 23px;
+    margin: 0 0 20px 0;
+    padding: 12px 23px;
     display: inline-block;
 }
 /* общие стили для всех изменяемых секций - конец */
@@ -44,7 +44,7 @@
 }
 .worksheet-info{
     float: left;
-    margin-left: 25px;
+    margin-left: 20px;
     max-width: 260px;
 }
 .worksheet-item{
@@ -70,7 +70,7 @@
 }
 .aboutbox .aboutbox-item{
     padding: 0 0 0 76px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 .aboutbox .aboutbox-item:last-child{
     margin-bottom: 0px;
@@ -93,9 +93,7 @@
     list-style: none;
 }
 .skills{
-    width: 52%;
     float: right;
-    vertical-align: top;
 }
 .skill-item {
     border-radius: 2px;
@@ -105,17 +103,15 @@
     list-style-type: none;
     display: inline-block;
     margin-right: 2px;
-    padding: 3px 14px 3px 14px ;
+    padding: 0px 13px 3px 13px ;
     color: white;
     text-align: center;
     font-size: 14px;
     font-family: ProximaNovaCond-Semibold;
 }
 .where {
-    margin-top: 26px;
     font-size: 17px;
-    font-weight: bold;
-    font-family: firasans-book;
+    font-family: "fira_sansbook";
 }
 
 .icon-work{
@@ -124,7 +120,7 @@
 }
 .period{
     font-size: 15px;
-    font-family: firasans-light;
+    font-family: "firasans-light;
 }
 .aboutbox-item {
     list-style-type: none;
