@@ -1,0 +1,48 @@
+
+.sprite-cat {
+    width: 47px;
+    height: 47px;
+    background-position: -10px -10px;
+}
+
+.sprite-fb {
+    width: 47px;
+    height: 47px;
+    background-position: -77px -10px;
+}
+
+.sprite-fb_hover {
+    width: 47px;
+    height: 47px;
+    background-position: -144px -10px;
+}
+
+.sprite-gihtub_hover {
+    width: 47px;
+    height: 47px;
+    background-position: -211px -10px;
+}
+
+.sprite-tw {
+    width: 47px;
+    height: 47px;
+    background-position: -278px -10px;
+}
+
+.sprite-tw_hover {
+    width: 47px;
+    height: 47px;
+    background-position: -345px -10px;
+}
+
+.sprite-vk {
+    width: 47px;
+    height: 47px;
+    background-position: -412px -10px;
+}
+
+.sprite-vk_h {
+    width: 47px;
+    height: 47px;
+    background-position: -479px -10px;
+}

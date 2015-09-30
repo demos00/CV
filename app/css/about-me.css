@@ -1,0 +1,142 @@
+.aboutbox{
+    background: #eff3f7;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+.aboutbox .aboutbox-header{
+    font-family: fira_sansbook;
+    font-size: 27px;
+    font-weight: normal;
+    color: #3ba8c0;
+    border-bottom: 2px #3ba8c0 solid;
+    margin: 0 0 16px 0;
+    padding: 13px 23px;
+    display: inline-block;
+}
+/* общие стили для всех изменяемых секций - конец */
+/* Физиономия  - начало */
+.image-wrap{
+    float: left;
+    margin-left: 55px;
+    margin-top: 18px;
+}
+.avatar-box{
+    width: 142px;
+    height: 142px;
+    border-radius: 50% 50%;
+    overflow: hidden;
+    border: 5px solid #3ba8c0;
+}
+.avatar{
+    width: 100%;
+}
+/* Физиономия - конец */
+
+.aboutbox .worksheet-wrap{
+    float: right;
+    width: 400px;
+    margin-right: 20px;
+}
+.worksheet-list{
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+}
+.worksheet-info{
+    float: left;
+    margin-left: 25px;
+    max-width: 260px;
+}
+.worksheet-item{
+    margin-bottom: 7px;
+}
+.worksheet-what{
+    font-family: fira_sansmedium;
+    font-size: 17px;
+    float: left;
+}
+.worksheet-info{
+    font-family: fira_sansbook;
+    font-size: 15px;
+    overflow: hidden;
+    max-width: 218px;
+}
+
+/* список анкетных данных - конец*/
+.aboutbox .aboutbox-list{
+    list-style: none;
+    padding: 0 0 0 50px;
+    margin: 0;
+}
+.aboutbox .aboutbox-item{
+    padding: 0 0 0 76px;
+    margin-bottom: 20px;
+}
+.aboutbox .aboutbox-item:last-child{
+    margin-bottom: 0px;
+
+}
+.aboutbox-item.icon-work{
+    background: url("../img/bag.png") 9px center no-repeat;
+}
+.aboutbox-item.icon-college{
+    background: url("../img/hat.png") 9px center no-repeat;
+}
+.aboutbox-item.icon-course{
+    background: url("../img/list.png") 17px center no-repeat;
+}
+
+/* CКИЛЫЫЫЫ - начало */
+.skills-list {
+    width: 224px;
+    padding: 0;
+    list-style: none;
+}
+.skills{
+    width: 52%;
+    float: right;
+    vertical-align: top;
+}
+.skill-item {
+    border-radius: 2px;
+    background-image: -moz-linear-gradient( 90deg, rgb(46,140,162) 0%, rgb(46,140,162) 52%, rgb(59,168,192) 53%, rgb(59,168,192) 100%);
+    background-image: -webkit-linear-gradient( 90deg, rgb(46,140,162) 0%, rgb(46,140,162) 52%, rgb(59,168,192) 53%, rgb(59,168,192) 100%);
+    background-image: -ms-linear-gradient( 90deg, rgb(46,140,162) 0%, rgb(46,140,162) 52%, rgb(59,168,192) 53%, rgb(59,168,192) 100%);
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 2px;
+    padding: 3px 14px 3px 14px ;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    font-family: ProximaNovaCond-Semibold;
+}
+.where {
+    margin-top: 26px;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: firasans-book;
+}
+
+.icon-work{
+    background: url(../img/bag.png) no-repeat;
+
+}
+.period{
+    font-size: 15px;
+    font-family: firasans-light;
+}
+.aboutbox-item {
+    list-style-type: none;
+}
+.aboutbox-body{
+    padding-bottom: 50px;
+}
+.icon-college {
+    background: url(../img/hat.png) no-repeat;
+}
+.icon-school {
+    background: url(../img/list.png) no-repeat;
+}
+
+/* СКИЛЫЫЫ - конец */
