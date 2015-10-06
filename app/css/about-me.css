@@ -3,12 +3,12 @@
     border-radius: 4px;
     margin-bottom: 20px;
 }
-.aboutbox .aboutbox-header{
+.aboutbox-header{
     font-family: fira_sansbook;
     font-size: 27px;
     font-weight: normal;
     color: #3ba8c0;
-    border-bottom: 2px #3ba8c0 solid;
+    border-bottom: 3px #3ba8c0 solid;
     margin: 0 0 20px 0;
     padding: 12px 23px;
     display: inline-block;
@@ -112,6 +112,7 @@
 .where {
     font-size: 17px;
     font-family: "fira_sansbook";
+    font-weight: bold
 }
 
 .icon-work{
