@@ -1,0 +1,126 @@
+.vc-contact {
+	background: #eff3f7;
+	border-radius: 4px;
+	margin-bottom: 40px;
+}
+.link_backgraund {
+	background-color:#48CBE8;
+	border-bottom: 17px solid #51DAF8;
+	height: 117px;
+	border-radius: 5px 5px 0px 0px;
+	text-align: center;
+}
+
+.table_of_contents_link {
+	line-height: 125px;
+	text-align: center;
+	margin: 0px;
+	color:#F9FAFB;
+	font-family: 'fira_sansbook';
+	font-size: 27px;
+	font-weight: normal;
+	font-style: normal;
+}
+/* Форма */
+.form {
+	width: 400px;
+	margin: 50px auto;
+}
+
+.name {
+	color: #A9AEB9;
+	margin: 0px;
+	padding-bottom: 7px;
+}
+
+.caption {
+	color: #A9AEB9;
+	margin: 0px;
+	margin-bottom: 8px
+}
+
+.input {
+	width: 180px;
+	height: 30px;
+	font-family: 'fira_sanslight';
+	font-size: 14px;
+	padding-left: 10px;
+	margin-bottom: 10px;
+	border-radius: 3px 3px;
+	border: 1px solid #48cbe8;
+	color: #A9AEB9;
+}
+.form .label {
+	display: inline-block;
+}
+.you_mail {
+	margin-left: 9px
+}
+.your_message {
+	width: 400px;
+}
+.textarea {
+	width: 380px;
+	height: 177px;
+	border: 1px solid #48cbe8;
+	border-radius: 3px 3px;
+	font-family: 'fira_sanslight';
+	font-size: 14px;
+	padding: 10px;
+	resize: none;
+	color: #A9AEB9;
+	margin-bottom: 19px;
+}
+
+.message {
+	margin:0;
+	color: #A9AEB9;
+	padding-bottom: 7px;
+}
+/* Кнопки - начало */
+.submit{
+	width: 140px !important;
+	border-radius: 4px;
+	font-family: 'fira_sansbook';
+	font-size: 19px;
+	color: white;
+	height: 33px;
+	border: 0;
+	border-bottom: 2px solid #687b8f;
+}
+.submit_one {
+	float: left;
+	background: #48cbe8;
+}
+.submit_two{
+	float: right;
+	background: #849db5;
+}
+.submit:hover {
+	border: 0;
+}
+.submit:active {
+	border: 0;
+	border-top: 2px solid #687b8f;
+}
+/* Кнопки - конец */
+/* Капча - начало */
+.captcha-img {
+	float: left;
+	border: 1px solid #48cbe8;
+	border-radius: 5px;
+	margin-bottom: 20px;
+}
+
+.captcha-input {
+	width: 190px;
+	height: 28px;
+	color: #48cbe8;
+	font-size: 13px;
+	border: 1px solid #48cbe8;
+	border-radius: 3px 3px;
+	font-family: 'fira_sanslight';
+	float: right;
+	padding-left: 10px;
+}
+/* Капча - конец */

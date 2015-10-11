@@ -1,0 +1,63 @@
+.vc-login {
+    position: absolute;
+    width: 400px;
+    height: 500px;
+}
+.auth-box{
+    position: relative;
+    top: 2em;
+    width: 593px;
+    height: 484px;
+    font-size: 40px;
+    background: #eff3f7;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: 0 3px 5px rgba(0,0,0,0.5);
+    border-radius: 4px;
+    padding-bottom: 23px;
+    margin-bottom: 3em;
+}
+.auth-box span{
+    font-size: 40px;
+}
+.enter{
+    display: block;
+    width: 227px;
+    height: 50px;
+    margin: auto;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 36px;
+    font-weight: 100;
+    margin-left: 5.2em;
+    font-family: 'fira_sansbook', sans-serif;
+    border-bottom: 4px solid #3ba8c0;
+
+}
+.input-auth{
+    border-radius: 4px;
+    border: 1px solid #48cbe8;
+    height: 39px;
+    width: 422px;
+    text-indent: 1em;
+}
+.form-item > span{
+    font-size: 36px;
+}
+.auth-box > .form-item{
+    display: block;
+    margin: 0 auto;
+    width: 422px;
+    font-family: 'fira_sansultralight', sans-serif;
+    font-size: 17px;
+    color: #b6eaf6;
+    font-weight: 900;
+    margin-bottom: 27px;
+
+}
+.block-head {
+    margin-bottom: 27px;
+}
+.auth-box .submit {
+    background: #48cbe8;
+}

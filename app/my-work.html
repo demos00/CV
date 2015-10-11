@@ -2,7 +2,7 @@
 <html lang="ru-RU">
 <head>
     <meta charset="UTF-8"/>
-    <title>CV Parhomenko D</title>
+    <title>Мои работы</title>
     <!-- SEO -->
     <meta name="description" content="CV_Parhomenko">
     <meta name="keywords" content="CV_Parhomenko">
@@ -17,7 +17,7 @@
     <script src="bower/modernizer/modernizr.js"></script>
     <!-- FONTS -->
     <link rel="stylesheet" href="fonts/fira.css">
-    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/contact-me.css">
     <link rel="stylesheet" href="css/my-work.css">
 </head>
 <body>
@@ -49,8 +49,9 @@
                 <nav class="navigation">
                     <ul class="navigation-list">
                         <li class="navigation-item "><a href="/" class="navigation-link">Обо мне</a></li>
-                        <li class="navigation-item current"><a href="my-work.html" class="navigation-link">Мои работы</a></li>
-                        <li class="navigation-item"><a href="/contact-me.html" class="navigation-link">Связаться со
+                        <li class="navigation-item current"><a href="my-work.html" class="navigation-link">Мои
+                            работы</a></li>
+                        <li class="navigation-item"><a href="contact-me.html" class="navigation-link">Связаться со
                             мной</a>
                         </li>
                     </ul>
@@ -79,42 +80,84 @@
             <section class="variable-content vc-back">
 
                 <div class="aboutbox">
-                        <h2 class="aboutbox-header">Мои работы</h2>
+                    <h2 class="aboutbox-header">Мои работы</h2>
                     <ul class="work-list">
                         <li class="work-item">
                             <img src="img/project/img1.jpg" alt="img" class="work-img">
+
                             <div class="hover-layer"><a href="#">название</a></div>
                             <span class="address">www.site.com.ua</span>
                             <span class="desc">Описание проекта</span>
                         </li>
                         <li class="work-item">
                             <img src="img/project/img2.jpg" alt="img" class="work-img">
+
                             <div class="hover-layer"><a href="#">название</a></div>
                             <span class="address">www.site.com.ua</span>
                             <span class="desc">Описание проекта</span>
                         </li>
                         <li class="work-item">
                             <img src="img/project/img3.jpg" alt="img" class="work-img">
+
                             <div class="hover-layer"><a href="#">название</a></div>
                             <span class="address">www.site.com.ua</span>
                             <span class="desc">Описание проекта</span>
                         </li>
                         <li class="work-item">
                             <img src="img/project/img4.jpg" alt="img" class="work-img">
+
                             <div class="hover-layer"><a href="#">название</a></div>
                             <span class="address">www.site.com.ua</span>
                             <span class="desc">Описание проекта</span>
                         </li>
                         <li class="work-item add" id="add">
-                            <div class="work-img">
-                                <img src="img/add.png" height="32" width="32" alt="Add">
-                                <a href="">Добавить проект</a>
+                            <div id="add-new-item" class="work-img">
+                                <img src="img/add.png">
+                                <a href="#" class="add-new-link">Добавить проект</a>
                             </div>
                         </li>
                     </ul>
                 </div>
-                
+
             </section>
+            <!--Добавление проєкта - bpopup !-->
+            <div class="new_popup" id="new-progect-popup">
+                <div class="modal-wrapper">
+                    <div class="modal-header">
+                        <button type="button " class="b-close"></button>
+                        <h4 class="modal-title">Добавление проекта</h4></div>
+                    <div class="modal-body"></div>
+                </div>
+                <div class="server-mes success-mes" style="display: none;"></div>
+                <div class="server-mes error-mes" style="display: none;"></div>
+                <form id="add-new-project" role="form" class="form-modal">
+                    <div class="form-item">
+                        <span class="input-tag">Название проекта</span>
+                        <input type="text" 2px placeholder="Введите название">
+                    </div>
+
+                    <div class="form-item">
+                        <span class="input-tag">Картинка проекта</span>
+
+                        <div class="fileform">
+                            <span class="fake-input">Загрузите изображение</span>
+
+                            <div class="selectbutton"></div>
+                            <input id="upload" type="file" name="upload"></div>
+                    </div>
+
+                    <div class="form-item">
+                        <span class="input-tag">URL проекта</span>
+                        <input type="text" class="inpit-name" placeholder="Добавьте ссылку">
+                    </div>
+                    <div class="form-item">
+                        <span class="input-tag">Описание</span>
+                    <textarea name="" id="newDesc" class="new-desc" cols="37" rows="2"
+                              placeholder="Пара слов о вашем проекте"></textarea>
+                    </div>
+                    <input class=" submit submit_one modal-buttom" type="submit" id="submit" value="Добавить">
+                </form>
+            </div>
         </div>
     </div>
 </div>
@@ -128,6 +171,7 @@
 </footer>
 
 <script src="bower/jquery/dist/jquery.js"></script>
-<script src="js/main.js"></script>
+<script src="js/add_project.js"></script>
+<script src="bower/bPopup/jquery.bpopup.js"></script>
 </body>
 </html>
