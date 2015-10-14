@@ -273,3 +273,7 @@ border-top: none;
 .container:after, .clearfix:after {
 	clear: both;
 }
+
+.placeholder { color: #aaa;
+	padding-top: 7px;
+}
