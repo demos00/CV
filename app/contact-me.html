@@ -8,18 +8,21 @@
     <meta name="description" content="CV_Parhomenko">
     <meta name="keywords" content="CV_Parhomenko">
     <meta name="author" content="Parhomenko">
-    <!-- CSS -->
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/about-me.css">
+
     <!-- bower CSS -->
     <link rel="stylesheet" href="bower/normalize-css/normalize.css">
+    <link rel="stylesheet" href="bower/qtip2/jquery.qtip.css">
     <!-- favicon -->
     <link rel="icon" type="img/png" href="../img/favicon.ico" sizes="16x16">
     <script src="bower/modernizer/modernizr.js"></script>
     <!-- FONTS -->
     <link rel="stylesheet" href="fonts/fira.css">
-    <link rel="stylesheet" href="css/contact-me.css">
 
+    <!-- тултипы -->
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/about-me.css">
+    <link rel="stylesheet" href="css/contact-me.css">
 </head>
 <body>
 <!--[if lt IE 8]>
@@ -85,18 +88,18 @@
                         <h2 class="table_of_contents_link">У вас интересный проект? Напишите мне</h2>
                     </div>
                     <div class="form clearfix">
-                        <form name="form" method="post" action="">
+                        <form name="form" method="post" action="" id="contactMe" >
                             <label class=" label you_name clearfix">
                                 <p class="name">Имя</p>
-                                <input class="input" type="text" name="name" id="name" placeholder="Как к Вам обращаться"></label>
+                                <input class="input" type="text" name="name" id="name" placeholder="Как к Вам обращаться" qtip-content="Вы не ввели ИМЯ" qtip-position="left"></label>
 
                             <label class="label you_mail clearfix">
                                 <p class="name">Email</p>
-                                <input class="input" type="text" name="name" id="name" placeholder="Куда мне писать"></label>
+                                <input class="input" type="email" name="name" id="name" placeholder="Куда мне писать" qtip-content="Вы не ввели EMAIL" qtip-position="right"></label>
 
                             <label class="label your_message clearfix">
                                 <p class="message">Кратко о себе</p>
-                                <textarea class="textarea" name="message" id="message" placeholder="Кратко в чем суть"></textarea>
+                                <textarea class="textarea" name="message" id="message" placeholder="Кратко в чем суть"qtip-content="Чего вы от меня хотите" qtip-position="left"></textarea>
                             </label>
 
                             <label class="label capha clearfix">
@@ -105,12 +108,12 @@
                             <img class="captcha-img" src="img/captcha.jpg" alt="каптча">
 
                             <label class="captha_code clearfix">
-                                <input class="captcha-input" value="" type="text" name="name" id="name" placeholder="Введите код">
+                                <input class="captcha-input" value="" type="text" name="name" id="name" placeholder="Введите код" qtip-content="Вы не ввели код" qtip-position="right">
                             </label>
 
-                            <div class="clearfix">
+                            <label>
                                 <input class=" submit submit_one" type="submit"  id="submit" value="Отправить">
-                                <input class="submit submit_two" type="reset" id="submit" value="Очистить"></div>
+                                <input class="submit submit_two" type="reset" id="submit" value="Очистить"></label>
 
                         </form>
                     </div>
@@ -128,6 +131,9 @@
 </footer>
 
 <script src="bower/jquery/dist/jquery.min.js"></script>
+<script src="bower/qtip2/jquery.qtip.min.js"></script>
 <script src="js/contact-me.js"></script>
+<script src="js/main.js"></script>
+<script src="js/validate.js"></script>
 <script src="bower/jquery-placeholder/jquery.placeholder.min.js"></script>
 </body>

@@ -15,7 +15,13 @@ var myModule = (function () {
         $("#new-progect-popup").bPopup({
             speed: 650,
             transition: 'slideIn',
-            transitionClose: 'slideBack'
+            transitionClose: 'slideBack',
+            //прячем тултипы
+            onClose: function() {
+                $('input, textarea')
+                    .trigger('hideTooltip')
+                    .removeClass('has-error');
+            }
         })
     };
 // Добавление проєкта

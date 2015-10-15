@@ -277,3 +277,14 @@ border-top: none;
 .placeholder { color: #aaa;
 	padding-top: 7px;
 }
+/*--------------qtip2------------------*/
+.mystyle{
+	background-color: #f97e76;
+	border-color: #f97e76;
+	color: #fff;
+	font-size: 13px;
+}
+.has-error{
+	background: #fdd5d2;
+	border-color: #f97e76;
+}

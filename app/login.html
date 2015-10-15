@@ -7,11 +7,10 @@
     <meta name="description" content="CV_Parhomenko">
     <meta name="keywords" content="CV_Parhomenko">
     <meta name="author" content="Parhomenko">
-    <!-- CSS -->
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/about-me.css">
+
     <!-- bower CSS -->
     <link rel="stylesheet" href="bower/normalize-css/normalize.css">
+    <link rel="stylesheet" href="bower/qtip2/jquery.qtip.css">
     <!-- favicon -->
     <link rel="icon" type="img/png" href="../img/favicon.ico" sizes="16x16">
     <script src="bower/modernizer/modernizr.js"></script>
@@ -19,38 +18,49 @@
     <link rel="stylesheet" href="fonts/fira.css">
     <link rel="stylesheet" href="css/contact-me.css">
     <link rel="stylesheet" href="css/login.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/about-me.css">
+
 </head>
 <body>
+<!--[if lt IE 8]>
+<p class="browsehappy">Ваш браузер <strong>устарел</strong>. Пожалуйста<a href="http://browsehappy.com/">обновите</a>
+    его.</p>        <![endif]-->
 <div class="wrapper">
-    <div class="auth-box">
-        <div class="link_backgraund">
-            <span class="table_of_contents_link">Авторизуйтесь</span>
+    <form class="login-wrapper">
+        <div class="auth-box">
+            <div class="link_backgraund">
+                <span class="table_of_contents_link">Авторизуйтесь</span>
+            </div>
+
+            <div class="form-item">
+                <span class="input-tag">Логин</span>
+                <input type="email" class="input-auth" placeholder="Введите логин" qtip-content="Вы не ввели ЛОГИН"
+                       qtip-position="left">
+            </div>
+            <div class="form-item">
+                <span class="input-tag">Пароль</span>
+                <input type="email" class="input-auth" placeholder="Введите пароль" qtip-content="Вы не ввели ПАРОЛЬ"
+                       qtip-position="left">
+            </div>
+            <button class="submit" type="submit" id="submit" placeholder="Отправить">Отправить</button>
         </div>
-
-        <div class="form-item">
-            <span class="input-tag">Логин</span>
-            <input type="email" class="input-auth" placeholder="Введите логин">
-        </div>
-
-        <div class="form-item">
-            <span class="input-tag">Пароль</span>
-            <input type="email" class="input-auth" placeholder="Введите пароль">
-
-        </div>
-
-        <input class="submit" type="submit" id="submit" placeholder="Отправить">
-    </div>
+    </form>
 </div>
 <footer class="page-footer">
     <div class="container">
         <div class="grad_line grad_line2"></div>
         <div class="lock">
-            <a href="/login.html" class="lock-inner">Войти</a></div>
         <div class="copyright">© 2015.Это мой сайт, пожалуйста не копируйте и не воруйте его</div>
     </div>
 </footer>
 <script src="bower/jquery/dist/jquery.min.js"></script>
 <script src="bower/jquery-placeholder/jquery.placeholder.min.js"></script>
 <script src="js/contact-me.js"></script>
+<script src="js/main.js"></script>
+<script src="js/validate.js"></script>
+<script src="js/login.js"></script>
+<script src="bower/qtip2/jquery.qtip.min.js"></script>
 </body>
 </html>
